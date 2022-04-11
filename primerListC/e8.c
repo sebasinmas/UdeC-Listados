@@ -5,7 +5,7 @@
 // paranguacutilimicuaro esa cantidad de veces. En caso de que el número ingresado se encuentre fuera de rango,
 // el programa deberá terminar. (No usar ciclos)
 
-
+//El código en todos los casos es mío a menos que especifique lo contrario >:( -Sebastián SinMas
 int main(){
 	int n1;
 	printf("Por favor escriba un número del 1 al 10: ");

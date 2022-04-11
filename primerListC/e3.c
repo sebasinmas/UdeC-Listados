@@ -1,6 +1,8 @@
 #include <stdio.h>
-//Escribe un programa que pida tres números e imprima Cumple invariante si el primero sumado al segundo es menor al cuadrado del tercero dividido por el primero. 
+//Escribe un programa que pida tres números e imprima Cumple invariante si el primero sumado al segundo es menor al cuadrado del tercero dividido
+// por el primero. 
 
+//El código en todos los casos es mío a menos que especifique lo contrario >:( -Sebastián SinMas
 int main(){
 
 	int n1,n2,n3;

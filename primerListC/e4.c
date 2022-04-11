@@ -1,5 +1,8 @@
 #include <stdio.h>
-// Escribe un programa que pida dos números, los almacene en dos variables distintas y los intercambie en caso de que ambos sean negativos. La operación de intercambiar dos números (conocida como operación “swap”) se refiere a intercambiar el contenido de dos direcciones de memoria. 
+// Escribe un programa que pida dos números, los almacene en dos variables distintas y los intercambie en caso de que ambos sean negativos. 
+//La operación de intercambiar dos números (conocida como operación “swap”) se refiere a intercambiar el contenido de dos direcciones de memoria. 
+
+//El código en todos los casos es mío a menos que especifique lo contrario >:( -Sebastián SinMas
 int main(){
 
 	int n1,n2,cache;

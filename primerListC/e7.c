@@ -3,6 +3,7 @@
 //Escribe un programa que pida 
 //cuatro números y los imprima en orden. No utilizar ciclos.
 
+//El código en todos los casos es mío a menos que especifique lo contrario >:( -Sebastián SinMas
 int main(){
 	int a,b,c,d;
 	

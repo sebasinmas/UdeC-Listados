@@ -1,5 +1,7 @@
 #include <stdio.h>
-//Escribe un programa que pida un número entero e imprima todos sus divisores entre el 2 y el 10. (No usar ciclos) 
+//Escribe un programa que pida un número entero e imprima todos sus divisores entre el 2 y el 10. (No usar ciclos)
+
+//El código en todos los casos es mío a menos que especifique lo contrario >:( -Sebastián SinMas 
 
 int main(){
 	int n1,d2=0,d3=0,d4=0,d5=0,d6=0,d7=0,d8=0,d9=0,d10=0;
