@@ -28,17 +28,38 @@ int main(){
     	}
   	}
   	//Ahora voy a recorrer el array y filtrar datos en 2 arrays distintos. Pares[pares] Impares[impares]
+  	int pares=0,impares=0;
+
   	for (int i = 0; i < n; ++i){
-  		
+  		if (arr[i]%2==0){
+  			pares++;	
+  		}else{
+  			impares++;
+  		}
+  	}
+  	int Pares[pares];
+  	int Impares[impares];
+  	int contP=0;
+  	int contI=0;
+  	for (int i = 0; i < n; ++i){
+  		if (arr[i]%2==0){
+  			Pares[contP]=arr[i];
+  			contP++;	
+  		}else{
+  			Impares[contI]=arr[i];
+  			contI++;
+  		}	
   	}
 
 
-
 	//print del array
-	printf("El array de menor a mayor es: \n");
-	for (int i = 0; i < n; ++i){
-		printf("%d ",arr[i]);
+	printf("El array de impares de mayor a menor es: \n");
+	for (int i = impares-1; i >=0 ; --i){
+		printf("%d ",Impares[i]);
 	}
-
+	printf("\nEl array de pares de menor a mayor es: \n");
+	for (int i = 0; i < pares ; ++i){
+		printf("%d ",Pares[i]);
+	}
 	return (0);
 }		
